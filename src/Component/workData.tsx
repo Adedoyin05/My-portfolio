@@ -1,10 +1,10 @@
 import { IoLogoCss3 } from "react-icons/io";
-import img1 from "../image/clientpanel.png";
-import img2 from "../image/lumen.png";
+import img1 from "../image/calculator.png";
+import img2 from "../image/netflix.png";
 import img3 from "../image/giffinder.png";
-import img4 from "../image/generalassembly.png";
+import img4 from "../image/squazzle.png"
 import img5 from "../image/thoughtapp.png";
-import img6 from "../image/dev.io.png";
+
 
 import {
   SiJavascript,
@@ -30,15 +30,15 @@ type workType = {
     tooltip: string;
   }[];
   github: string;
-  live: string;
+  // live: string;
 };
 
 export const workData: workType[] = [
   {
     img: img2,
-    title: "Lumen Luxury",
+    title: "Netflix",
     description:
-      "This is a mini e-commerce application that gives users the ability to buy both male and female clothes with a payment integration",
+      "This is a replica of the famous Netflix App",
     stack: [
       {
         icon: <FaReact />,
@@ -62,14 +62,14 @@ export const workData: workType[] = [
         tooltip: "CSS",
       },
     ],
-    github: "https://github.com/obodobright/Mini-ecommerce-with-payment-stack",
-    live: "https://lumenluxury.netlify.app/",
+    github: "https://github.com/ELIJAHJOHNNY/GROUP-A-PROJECT.git",
+    
   },
   {
     img: img1,
-    title: "Client Panel",
+    title: "Calculator",
     description:
-      "A tracking application for small and medium scale entrepreneur especially market women to track their debtors",
+      "An application for small and medium scale entrepreneur  to calculate",
     stack: [
       {
         icon: <FaReact />,
@@ -97,8 +97,8 @@ export const workData: workType[] = [
       },
     ],
     github:
-      "https://github.com/obodobright/mybuild--firebaseauth-useReducer-state-management/tree/master/src/clientPanel",
-    live: "https://obodoclientsapp.netlify.app/",
+      "https://github.com/Adedoyin05/calculator.git",
+  
   },
   {
     img: img3,
@@ -136,73 +136,32 @@ export const workData: workType[] = [
       },
     ],
 
-    github: "https://github.com/obodobright/Giphy-Gif-Riby-react",
-    live: "https://lucent-panda-7075b6.netlify.app/",
+    github: "",
+    
   },
   {
     img: img4,
-    title: "General Assembly",
+    title: "Squazzle",
     description:
-      "This is a web confering apllication that allows users to have a realtime video and audio chat over a low-latency network",
+      "SQUAZZLE Project A squatting platform This platform allows people to accommodate others for an agreed period of time.",
     stack: [
       {
         icon: <FaReact />,
         tooltip: "React",
       },
       {
-        icon: <DiNodejs />,
-        tooltip: "Node",
-      },
-      {
-        icon: <SiSocketdotio />,
-        tooltip: "Socket.io",
-      },
-      {
         icon: <SiJavascript />,
         tooltip: "JavaScript",
-      },
-      {
-        icon: <SiStyledcomponents />,
-        tooltip: "Styled-components",
       },
       {
         icon: <IoLogoCss3 />,
         tooltip: "CSS",
       },
     ],
-    github: "https://github.com/obodobright/web-conferecing-app",
-    live: "https://ga-meet.netlify.app/",
+    github: "https://github.com/StuternHousemanship/SQUAZZLE-Frontend-Project-Team1.1.git",
+   
   },
-  {
-    img: img6,
-    title: "Dev.io Article feedspage - Clone",
-    description:
-      "This is a clone of the popular dev.io article page, it's is a static single webpage to skill up my react components skills",
-    stack: [
-      {
-        icon: <FaReact />,
-        tooltip: "React",
-      },
-      {
-        icon: <SiMaterialui />,
-        tooltip: "Material UI",
-      },
-      {
-        icon: <SiJavascript />,
-        tooltip: "JavaScript",
-      },
-      {
-        icon: <SiStyledcomponents />,
-        tooltip: "Styled-components",
-      },
-      {
-        icon: <IoLogoCss3 />,
-        tooltip: "CSS",
-      },
-    ],
-    github: "https://github.com/obodobright/dev.t0-homepage",
-    live: "https://brightobododevtest.netlify.app/",
-  },
+  
   {
     img: img5,
     title: "My Thought App",
@@ -223,7 +182,7 @@ export const workData: workType[] = [
       },
     ],
     github: "",
-    live: "https://mythoughtapp.netlify.app/",
+   
   },
 ];
 

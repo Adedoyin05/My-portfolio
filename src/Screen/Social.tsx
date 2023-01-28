@@ -8,19 +8,19 @@ const Socials = () => {
   const socialIcons: { social: any; link: string }[] = [
     {
       social: <FaTwitter />,
-      link: "https://twitter.com/bright_lumen",
+      link: "https://twitter.com/AdebajoAdedoyi2",
     },
     {
       social: <BsGithub />,
-      link: "github.com/obodobright",
+      link: "github.com/Adedoyin05",
     },
     {
       social: <MdEmail />,
-      link: "mailto:obodobright0@gmail.com",
+      link: "mailto:adebajoa15@gmail.com",
     },
     {
       social: <BsLinkedin />,
-      link: "https://www.linkedin.com/in/obodo-bright-228a93188/",
+      link: "https://www.linkedin.com/in/adedoyin-adebajo-4706bb22a",
     },
   ];
 

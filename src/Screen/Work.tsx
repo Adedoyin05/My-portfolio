@@ -35,12 +35,12 @@ const Work = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <h4 className=" url-item">
+                  {/* <h4 className=" url-item">
                     <a href={project.live} target="_blank" rel="noreferrer">
                       Live
                     </a>
-                  </h4>
-                  <span className="text-lg font-bold">|</span>
+                  </h4> */}
+                  {/* <span className="text-lg font-bold"></span> */}
                   <h4 className=" url-item">
                     <a href={project.github} target="_blank" rel="noreferrer">
                       Github
